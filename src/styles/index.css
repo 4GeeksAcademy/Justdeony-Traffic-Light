@@ -9,3 +9,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.light-red.shine{
+    background-color: rgb(255, 130, 130);
+    box-shadow: 0 0 20px 5px rgb(255, 130, 130);
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: grey; 
+    margin: 10px auto;
+    transition: all 0.3s;
+}
+

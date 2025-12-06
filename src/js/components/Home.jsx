@@ -32,7 +32,7 @@ const Home = () => {
           <Circle
             background="yellow"
             active={color === "yellow"}
-            onClick={() =>setColor((prev) => (prev === "green" ? null : "green"))}
+            onClick={() =>setColor((prev) => (prev === "yellow" ? null : "yellow"))}
           />
           <Circle
             background="green"
